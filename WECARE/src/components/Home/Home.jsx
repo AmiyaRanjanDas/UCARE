@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ProductCard from "./ProductCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Scrollbar } from "swiper/modules";
 import "swiper/css";
@@ -214,6 +215,71 @@ function Home() {
       </div>
 
       {/* ===========================================================
+        =======================section-2===============================
+        ======================Poppular Product section=============================== */}
+      <div className="my-4 px-5" >
+        <h4 className="text-center fs-1">Popular Product</h4>
+        <div className="row">
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6  col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
+
+      {/* ===========================================================
+        =======================section-3===============================
+        ======================Recommended Product section=============================== */}
+        <div className="container" >
+        <h4 className="text-center fs-1">Recommended Product</h4>
+        <div className="row">
+          <div className="col-6 col-md-4 col-lg-3 ">
+            <ProductCard />
+          </div>
+          <div className=" col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className=" col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+          <div className="col-6 col-md-4 col-lg-3">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
+      
         =======================section-2===========================*/}
       <div className="p-2">
       <Swiper
