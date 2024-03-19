@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import About from "./About";
+import ProductCard from "./ProductCard";
 
 function Home() {
   return (
@@ -83,10 +83,71 @@ function Home() {
         </button>
       </div>
 
-        {/* ===========================================================
+      {/* ===========================================================
         =======================section-2===============================
-        =============================================================== */}
-        <About/>
+        ======================Poppular Product section=============================== */}
+      <div className="my-4 px-5" >
+        <h4 className="text-center fs-1">Popular Product</h4>
+        <div className="row">
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
+
+      {/* ===========================================================
+        =======================section-3===============================
+        ======================Recommended Product section=============================== */}
+        <div className="my-4 px-5" >
+        <h4 className="text-center fs-1">Recommended Product</h4>
+        <div className="row">
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
