@@ -280,7 +280,7 @@ function Home() {
         </div>
       </div>
       
-        =======================section-2===========================*/}
+      {/* =======================section-2===========================*/}
       <div className="p-2">
       <Swiper
       modules={[Navigation, Scrollbar, Autoplay]}
