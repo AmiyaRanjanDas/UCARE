@@ -89,28 +89,28 @@ function Home() {
       <div className="my-4 px-5" >
         <h4 className="text-center fs-1">Popular Product</h4>
         <div className="row">
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
         </div>
@@ -119,31 +119,31 @@ function Home() {
       {/* ===========================================================
         =======================section-3===============================
         ======================Recommended Product section=============================== */}
-        <div className="my-4 px-5" >
+        <div className="container" >
         <h4 className="text-center fs-1">Recommended Product</h4>
         <div className="row">
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3 ">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className=" col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className=" col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
         </div>
