@@ -107,7 +107,7 @@ function Home() {
           <div className="col-6 col-md-4 col-lg-3">
             <ProductCard />
           </div>
-          <div className="col-6 col-md-4 col-lg-3">
+          <div className="col-6  col-md-4 col-lg-3">
             <ProductCard />
           </div>
           <div className="col-6 col-md-4 col-lg-3">
